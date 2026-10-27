@@ -1,0 +1,249 @@
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --success: #16a34a;
+    --success-bg: #f0fdf4;
+    --danger: #dc2626;
+    --danger-bg: #fef2f2;
+    --text: #111827;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --background: #f3f4f6;
+    --white: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background: var(--background);
+    color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+}
+
+/* Quiz */
+
+.quiz-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.quiz-label {
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+}
+
+.quiz-header h1 {
+    font-size: clamp(1.8rem, 4vw, 2.7rem);
+    line-height: 1.15;
+    margin-bottom: 12px;
+}
+
+.quiz-description {
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quiz-container {
+    width: min(900px, 100%);
+    margin: 0 auto;
+}
+
+.quiz-card,
+.result-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+#questions-container {
+    display: grid;
+    gap: 22px;
+}
+
+.question-card {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px;
+    background: #fafafa;
+}
+
+.question-number {
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.question-text {
+    font-size: 1.08rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.answers-container {
+    display: grid;
+    gap: 10px;
+}
+
+.answer-button {
+    width: 100%;
+    border: 1px solid var(--border);
+    background: var(--white);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 13px 15px;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.answer-button:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: #eff6ff;
+}
+
+.answer-button:disabled {
+    cursor: default;
+}
+
+.answer-button.correct {
+    border-color: var(--success);
+    background: var(--success-bg);
+    color: #166534;
+    font-weight: 700;
+}
+
+.answer-button.wrong {
+    border-color: var(--danger);
+    background: var(--danger-bg);
+    color: #991b1b;
+    font-weight: 700;
+}
+
+.feedback.correct {
+    color: var(--success);
+}
+
+.feedback.wrong {
+    color: var(--danger);
+}
+
+/* Results */
+
+.result-card {
+    text-align: center;
+    padding: 45px 28px;
+}
+
+.eyebrow {
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 10px;
+}
+
+.result-card h2 {
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+}
+
+
+.final-score {
+    color: var(--primary);
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 10px 0 15px;
+}
+
+.result-message {
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 550px;
+    margin: 0 auto 25px;
+}
+
+.restart-button {
+    border: 0;
+    border-radius: 10px;
+    background: var(--primary);
+    color: var(--white);
+    padding: 13px 22px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.restart-button:hover {
+    background: var(--primary-dark);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 24px 14px;
+    }
+
+    .quiz-header {
+        margin-bottom: 20px;
+    }
+
+    .quiz-card,
+    .result-card {
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .question-card {
+        padding: 17px;
+    }
+
+    .question-text {
+        font-size: 1rem;
+    }
+
+    .final-score {
+        font-size: 2.5rem;
+    }
+}

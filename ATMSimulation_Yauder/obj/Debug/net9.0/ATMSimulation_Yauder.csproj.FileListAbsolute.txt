@@ -1,0 +1,14 @@
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.GeneratedMSBuildEditorConfig.editorconfig
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.AssemblyInfoInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.AssemblyInfo.cs
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.csproj.CoreCompileInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\bin\Debug\net9.0\ATMSimulation_Yauder.exe
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\bin\Debug\net9.0\ATMSimulation_Yauder.deps.json
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\bin\Debug\net9.0\ATMSimulation_Yauder.runtimeconfig.json
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\bin\Debug\net9.0\ATMSimulation_Yauder.dll
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\bin\Debug\net9.0\ATMSimulation_Yauder.pdb
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.dll
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\refint\ATMSimulation_Yauder.dll
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.pdb
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ATMSimulation_Yauder.genruntimeconfig.cache
+\\win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\ATMSimulation_Yauder\obj\Debug\net9.0\ref\ATMSimulation_Yauder.dll

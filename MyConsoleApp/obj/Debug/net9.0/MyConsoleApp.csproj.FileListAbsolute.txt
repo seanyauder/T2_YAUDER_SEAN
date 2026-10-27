@@ -1,0 +1,14 @@
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.exe
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.deps.json
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.runtimeconfig.json
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.dll
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.pdb
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfoInputs.cache
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfo.cs
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.dll
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\refint\MyConsoleApp.dll
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.pdb
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.genruntimeconfig.cache
+\\Server\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\MyConsoleApp\obj\Debug\net9.0\ref\MyConsoleApp.dll

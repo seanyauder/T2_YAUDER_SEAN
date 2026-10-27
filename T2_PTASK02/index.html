@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-activity</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        .bold {font-weight: bold;}
+    </style>
+
+</head>
+<body>
+    
+    <h1>Activity 1: The String vs. Number</h1>
+    <p>Enter two numbers to see how JavaScript handles the "+" operation.</p>
+
+    <div class="input-container">
+
+        <input 
+            type="text" 
+            id="first-input"
+        >
+
+        <span>+</span>
+
+        <input 
+            type="text" 
+            id="second-input"
+        >
+
+        <button id="combine-button">Combine</button>
+
+    </div>
+    
+    <div class="result-container">
+        <p class="bold">Result:</p>
+        
+        <p>String: <span id="string-result" class="bold"></span> (Type: String)</p>
+
+        <p>Number: <span id="number-result" class="bold"></span> (Type: Number)</p>
+
+    </div>
+    
+</body>
+</html>

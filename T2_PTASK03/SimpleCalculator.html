@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <p>Input an operation</p>
+
+    <div>
+        <input type="text" id="first-input" placeholder="Input first number" >
+        <select name="operator" id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="second-input" placeholder="Input second number" >
+
+        <p>Result: <span id="result"></span></p>
+    </div>
+
+    <button id="calculate-btn">Calculate</button>
+
+    <script>
+        // DOM REFERRENCES
+        const firstInput = document.getElementById('first-input');
+        const secondInput = document.getElementById('second-input');
+        const operatorInput = document.getElementById('operator');
+        const resultDisplay = document.getElementById('result');
+        const calculateBtn = document.getElementById('calculate-btn');
+
+        // arrow functions
+        const add = (first, second) => first + second;
+        const subtract = (first, second) => first - second;
+        const multiply = (first, second) => first * second;
+        const divide = (first, second) => {
+            if (second === 0) {
+                return "Cannot be divisible by zero";
+            }
+            return (first / second);
+        };
+
+        // Calculate Function
+        function calculate() {
+            const firstValue = firstInput.value.trim();
+            const secondValue = secondInput.value.trim();
+            const operator = operatorInput.value;
+
+            // Checks if input values are empty
+            if (firstValue === "" || secondValue === "") {
+                return resultDisplay.textContent = "Inputs must not be empty!";
+            }
+
+            // Converts input into numbers
+            let first = Number(firstValue);
+            let second = Number(secondValue);
+
+            // Checks if inputs are NaN (Not a number)
+            if (Number.isNaN(first) || Number.isNaN(second)) {
+                return resultDisplay.textContent = "Must input numbers!";
+            }
+
+            let result;
+            switch(operator) {
+                case "+": result = add(first, second);
+                break;
+                case "-": result = subtract(first, second);
+                break;
+                case "*": result = multiply(first, second);
+                break;
+                case "/": result = divide(first, second);
+                break;
+            }
+            resultDisplay.textContent = result;
+        }
+
+        calculateBtn.addEventListener('click', calculate);
+
+    </script>
+</body>
+</html>

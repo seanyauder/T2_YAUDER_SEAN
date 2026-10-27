@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Lab</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-width: 100dvh;
+            min-width: 100vh;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            padding: 6px;
+            font-size: 12px;
+        }
+
+        button {
+            padding: 5px;
+        }
+
+        div {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <main>
+
+        <h1>Guess the secret number!</h1>
+
+        <div>
+            <input type="number" id="guess-input" placeholder="Try guessing!">
+            <button id="guess-btn">Guess</button>
+            <button id="reset-btn">Start over</button>
+        </div>
+
+        <div>
+            <p id="correct-number"></p>
+            <p id="result">Your guess will appear here...</p>
+            <p>Guesses: <span id="num-of-guesses">0</span>/3</p>
+        </div>
+
+    </main>
+
+    <script>
+        // DOM REFERRENCES
+        const guessBtn = document.getElementById('guess-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        
+        const correctNum = document.getElementById('correct-number');
+        const resultDisplay = document.getElementById('result');
+        const guesses = document.getElementById('num-of-guesses');
+
+        const maxGuesses = 3;
+        let guessCount;
+        let secretNumber;
+        
+        function startOver() {
+            secretNumber = Math.floor(Math.random() * 100) + 1;
+            guessCount = 0;
+            correctNum.textContent = "";
+            resultDisplay.textContent = 'Your guess will appear here...';
+            guesses.textContent = '0';
+            guessBtn.disabled = false;
+        }
+        
+        function checkGuesses() {
+            const guess = Number(document.getElementById('guess-input').value);
+            
+            if (!guess) {
+                return resultDisplay.textContent = 'Please enter a number!';
+            }
+
+            if (guess < 0 || guess > 100) {
+                return resultDisplay.textContent = 'Please enter a number between 0 - 100';
+            }
+
+            guessCount++;
+            guesses.textContent = guessCount;
+
+            if (guessCount >= maxGuesses) {
+                correctNum.textContent = "The secret number is: " + secretNumber +"!";
+                resultDisplay.textContent = 'You have exceeded the max tries. Please start over!';
+                guessBtn.disabled = true;
+                return;
+            }
+
+            console.log(typeof guess);
+            console.log(typeof secretNumber);
+
+            if (guess === secretNumber) {
+                resultDisplay.textContent = 'Congratulations! You have guessed the secret number!';
+                guessBtn.disabled = true;
+            } else if (guess < secretNumber) {
+                resultDisplay.textContent = 'Too low! Try higher number!'
+            } else {
+                resultDisplay.textContent = 'Too high! Try a lower number!'
+            }
+        
+        }
+        
+        startOver();
+        guessBtn.addEventListener('click', checkGuesses);
+        resetBtn.addEventListener('click', startOver);
+    </script>
+
+</body>
+</html>

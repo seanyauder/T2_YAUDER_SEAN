@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Win-9u77nfs6td3\\folder redirection\\ihub16\\My Documents\\T2_YAUDER_SEAN\\Visual Studio 2022\\MVCDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04047FAD-3794-484A-B555-FB02141710CA}|MVCDemo\\MVCDemo.csproj|\\\\win-9u77nfs6td3\\folder redirection\\ihub16\\my documents\\t2_yauder_sean\\visual studio 2022\\mvcdemo\\mvcdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04047FAD-3794-484A-B555-FB02141710CA}|MVCDemo\\MVCDemo.csproj|\\\\win-9u77nfs6td3\\folder redirection\\ihub16\\my documents\\t2_yauder_sean\\visual studio 2022\\mvcdemo\\mvcdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "\\\\Win-9u77nfs6td3\\folder redirection\\ihub16\\My Documents\\T2_YAUDER_SEAN\\Visual Studio 2022\\MVCDemo\\MVCDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "\\\\Win-9u77nfs6td3\\folder redirection\\ihub16\\My Documents\\T2_YAUDER_SEAN\\Visual Studio 2022\\MVCDemo\\MVCDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVCDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-08T06:45:53.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "\\\\Win-9u77nfs6td3\\folder redirection\\ihub16\\My Documents\\T2_YAUDER_SEAN\\Visual Studio 2022\\MVCDemo\\MVCDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "\\\\Win-9u77nfs6td3\\folder redirection\\ihub16\\My Documents\\T2_YAUDER_SEAN\\Visual Studio 2022\\MVCDemo\\MVCDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T06:43:46.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

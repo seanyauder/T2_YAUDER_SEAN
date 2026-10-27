@@ -1,0 +1,14 @@
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.exe
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.deps.json
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.runtimeconfig.json
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.dll
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\bin\Debug\net8.0\HelloWorldApp.pdb
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.AssemblyInfoInputs.cache
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.AssemblyInfo.cs
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.csproj.CoreCompileInputs.cache
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.dll
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\refint\HelloWorldApp.dll
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.pdb
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\HelloWorldApp.genruntimeconfig.cache
+\\Win-9u77nfs6td3\folder redirection\ihub16\My Documents\T2_YAUDER_SEAN\Visual Studio 2022\HelloWorldApp\HelloWorldApp\obj\Debug\net8.0\ref\HelloWorldApp.dll

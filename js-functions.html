@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Functions</title>
+</head>
+<body>
+    
+    <h1>Javascript Function Demo</h1>
+
+    <p>This page demonstrate javascript function</p>
+
+    <!-- Button to trigger the results -->
+    <button onClick="runStandardFunction()">Run Standard Function (Add 3+ 10)</button>
+    <button onclick="runArrowFunction()">Run Arrow Function (Add 3+ 30)</button>
+
+    <br>
+    <br>
+    <div id="resultDiv">The result will appear here..</div>
+
+    <script>
+        const outputDiv = document.getElementById('resultDiv');
+
+        // convert this standard function to arrow function
+        function greet(name) {
+            return "Hello " + name;
+        }
+
+        // arrow function equivalent of the above standard function
+        const greet = name => "Hello " + greet;
+
+
+        // Standard Function
+        function addNumbers(a, b) {
+            return a + b;
+        }
+
+        // Arrow Funtion
+        const addArrow = (a, b) => a + b;
+
+        // Wrapper Function
+        function runStandardFunction() {
+            const result = addNumbers(3, 10);
+            outputDiv.innerHTML = "<strong>Standard Function Result: </strong>" + result;
+            console.log("standard function");
+        }
+
+        // Wrapper Arrow Function
+        const runArrowFunction = () => {
+            const result = addArrow(3, 30);
+            outputDiv.innerHTML = "<strong>Arrow Function Result: </strong>" + result;
+            console.log("arrow function");
+        }
+    </script>
+
+</body>
+</html>
